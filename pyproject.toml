@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "objmapping"
+version = "0.1.0"
+description = "SimpleNamespace styled object mapping interface which supports static typechecking and runtime integrity checks"
+authors = ["achxy <luminosityzzz00@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 125
+
+[tool.isort]
+profile = "black"
+line_length = 125
